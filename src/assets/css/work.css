@@ -1,0 +1,14 @@
+.work {
+  margin: 4rem;
+  width: 100%;
+  padding-inline: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .work {
+    flex-direction: column;
+  }
+}
