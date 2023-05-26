@@ -1,4 +1,3 @@
-import React from "react";
 import "../assets/css/home.css";
 import About from "./About";
 import { cv, logo } from "../assets";
@@ -23,6 +22,7 @@ const Home = () => {
                 <a
                   href="https://www.linkedin.com/in/shashank-patel-018a48133/"
                   target="_blank"
+                  rel="noreferrer"
                   title="LinkedIn"
                 >
                   <i className="fa-brands fa-linkedin"></i>
@@ -30,6 +30,7 @@ const Home = () => {
                 <a
                   href="https://www.instagram.com/shashank.p.62824/"
                   target="_blank"
+                  rel="noreferrer"
                   title="Instagram"
                 >
                   <i className="fa-brands fa-instagram"></i>
@@ -37,12 +38,19 @@ const Home = () => {
                 <a
                   href="https://twitter.com/SHASHANKPA78290"
                   target="_blank"
+                  rel="noreferrer"
                   title="Twitter"
                 >
                   <i className="fa-brands fa-twitter"></i>
                 </a>
               </div>
-              <a className="buttoncv" target="_blank" download href={cv}>
+              <a
+                className="buttoncv"
+                target="_blank"
+                rel="noreferrer"
+                download
+                href={cv}
+              >
                 Download CV
               </a>
             </div>

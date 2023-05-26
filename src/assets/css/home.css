@@ -102,7 +102,7 @@
   width: 60%;
 }
 
-.link {
+.containers > .link {
   margin: 1.5rem 0rem 1.5rem 1rem;
   display: flex;
   flex-direction: row;
@@ -152,7 +152,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 60rem) {
   .link {
     flex-direction: column;
     display: inline;
