@@ -1,5 +1,5 @@
 .work {
-  margin: 4rem;
+  margin: 4rem 4rem;
   width: 100%;
   padding-inline: 5%;
   display: flex;
@@ -10,5 +10,11 @@
 @media (max-width: 1200px) {
   .work {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 50rem) {
+  .work {
+    margin: 4rem 2rem;
   }
 }

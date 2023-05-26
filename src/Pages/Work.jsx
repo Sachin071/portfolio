@@ -1,4 +1,3 @@
-import React from "react";
 import Cart from "../components/Cart";
 import "../assets/css/work.css";
 import portfolio from "../assets/images/project1.png";

@@ -46,3 +46,33 @@
   font-size: 1.8rem;
   text-align: center;
 }
+
+@media (max-width: 50rem) {
+  .main {
+    margin: 2rem;
+    padding: 2rem 3rem;
+  }
+  .main > .intro {
+    font-size: 2rem;
+    line-height: 3.5rem;
+  }
+
+  .main > .technologies > h3 {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    letter-spacing: -0.1rem;
+    font-weight: 600;
+  }
+
+  .main .technologies > ul > li {
+    padding: 1rem;
+  }
+  .main .technologies > ul > li > img {
+    height: 4rem;
+    width: auto;
+  }
+  .main .technologies > ul > li > p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
