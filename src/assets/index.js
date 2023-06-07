@@ -10,6 +10,8 @@ import mongo from "./images/mongodb.svg";
 import git from "./images/git.png";
 import github from "./images/github.svg";
 import cv from "./docs/shashankcv.pdf";
+import portfolio from "./images/project1.png";
+import deshbook from "./images/project2.png";
 
 export {
   logo,
@@ -24,4 +26,6 @@ export {
   git,
   github,
   cv,
+  portfolio,
+  deshbook,
 };

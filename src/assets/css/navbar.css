@@ -28,7 +28,7 @@ li {
   width: 100%;
   height: 8rem;
   display: grid;
-  grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
+  grid-template-columns: 10rem 1fr 2fr 1fr 8rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
@@ -105,6 +105,12 @@ li {
 
 .social-media ul li {
   font-size: 1.8rem;
+}
+
+.social-media ul li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .social-media .hamburger-menu {

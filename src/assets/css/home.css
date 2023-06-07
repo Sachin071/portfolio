@@ -15,32 +15,28 @@
 }
 
 @keyframes changebg {
-  0% {
-    background-image: linear-gradient(
-      -225deg,
-      #69eacb 0%,
-      #eaccf8 48%,
-      #6654f1 100%
+  50% {
+    background: -webkit-linear-gradient(
+      90deg,
+      rgba(171, 200, 203, 0.29) 6%,
+      rgba(213, 177, 213, 0.37) 19%,
+      rgba(240, 240, 234, 0.03) 31%
     );
   }
-  50% {
-    background-image: linear-gradient(
-      to right bottom,
-      #687c9b,
-      #009ec6,
-      #00c1c1,
-      #00dc87,
-      #a8eb12
+  0% {
+    background: -webkit-linear-gradient(
+      90deg,
+      rgba(171, 200, 203, 0.29) 6%,
+      rgba(173, 157, 173, 0.34) 14%,
+      rgba(240, 240, 234, 0.03) 31%
     );
   }
   100% {
-    background-image: linear-gradient(
-      to left bottom,
-      #081120,
-      #003c58,
-      #006c71,
-      #009b5a,
-      #89c10b
+    background: -webkit-linear-gradient(
+      90deg,
+      rgba(171, 200, 203, 0.29) 6%,
+      rgba(170, 70, 170, 0.34) 19%,
+      rgba(240, 240, 234, 0.03) 31%
     );
   }
 }
@@ -114,7 +110,7 @@
 .buttoncv {
   text-decoration: none;
   margin: 1.2rem 0rem 0 0rem;
-  background: white;
+  background: #dedede;
   padding: 1rem 1.8rem;
   border-radius: 5rem;
   font-size: 3rem;

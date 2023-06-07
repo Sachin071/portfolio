@@ -1,4 +1,3 @@
-import React from "react";
 import "../assets/css/about.css";
 import {
   Html,
@@ -18,18 +17,11 @@ const About = () => {
     <div className="main">
       <section className="intro">
         <p>
-          I'm <strong>Shashank Patel</strong>, As a self-taught developer, I
-          have dedicated over one year to learning various web technologies such
-          as <strong>HTML, CSS, and JavaScript</strong>. Additionally, I have
-          gained valuable experience working with the{" "}
-          <strong>React JS, Node JS, Express JS and Mongo DB</strong>.
-        </p>
-        <p>
-          I am passionate about technology and always eager to embrace new
-          opportunities that contribute to my growth and expertise in the field.
-          I believe that continuous learning is essential in the ever-evolving
-          world of technology, and I am open to any opportunity that allows me
-          to further enhance my technical abilities.
+          As a self-taught developer with over one year of experience in the
+          MERN Stack, I am passionate about technology. I embrace new
+          opportunities for continuous learning and growth. I stay updated with
+          the ever-evolving world of technology and open to any opportunity that
+          enhances my technical abilities.
         </p>
       </section>
       <section className="technologies">

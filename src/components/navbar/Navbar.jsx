@@ -41,7 +41,7 @@ const Navbar = () => {
           <ul className="social-media-desktop">
             <li>
               <a href="tel:830-523-1235">
-                <MdCall />
+                <MdCall /> Call
               </a>
             </li>
           </ul>

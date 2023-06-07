@@ -1,33 +1,34 @@
-import Cart from "../components/Cart";
+import { Cart } from "../components";
 import "../assets/css/work.css";
-import portfolio from "../assets/images/project1.png";
+import { portfolio, deshbook } from "../assets";
 
 const Work = () => {
   return (
     <div className="work">
       <Cart
-        cart_img={portfolio}
-        cart_heading="My Portfolio"
-        cart_description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
-            blanditiis cupiditate odit distinctio quibusdam molestias ex quae
-            temporibus autem quod, culpa perferendis nesciunt dignissimos
-            aspernatur, aut repellendus, velit eos tempora."
+        cartImg={deshbook}
+        cartHeading="DeshBook"
+        cartDescription="Deshbook aims to provide a user-friendly interface, resembling the popular social media platform, and offers various features for seamless navigation and content viewing."
+        URL="https://github.com/Sachin071/deshbook"
+        // LIVE_URL = ""
       />
       <Cart
-        cart_img={portfolio}
-        cart_heading="My Portfolio"
-        cart_description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
+        cartImg={portfolio}
+        cartHeading="My Portfolio"
+        cartDescription="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
             blanditiis cupiditate odit distinctio quibusdam molestias ex quae
             temporibus autem quod, culpa perferendis nesciunt dignissimos
             aspernatur, aut repellendus, velit eos tempora."
+        URL="https://github.com/Sachin071/deshbook"
       />
       <Cart
-        cart_img={portfolio}
-        cart_heading="My Portfolio"
-        cart_description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
+        cartImg={portfolio}
+        cartHeading="My Portfolio"
+        cartDescription="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
             blanditiis cupiditate odit distinctio quibusdam molestias ex quae
             temporibus autem quod, culpa perferendis nesciunt dignissimos
             aspernatur, aut repellendus, velit eos tempora."
+        URL="https://github.com/Sachin071/deshbook"
       />
     </div>
   );
